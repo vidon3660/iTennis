@@ -15,6 +15,8 @@
 		4008D33B16BF67F0004A152E /* Raquet_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D33816BF67F0004A152E /* Raquet_Yellow.png */; };
 		4008D33F16BF6BEF004A152E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008D33E16BF6BEF004A152E /* SplashViewController.m */; };
 		4008D34216BF6CE0004A152E /* iTennisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008D34116BF6CE0004A152E /* iTennisAppDelegate.m */; };
+		4008D34516BF7E99004A152E /* clapping-crowd-studio-01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4008D34316BF7E99004A152E /* clapping-crowd-studio-01.caf */; };
+		4008D34616BF7E99004A152E /* tennis-volley-01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4008D34416BF7E99004A152E /* tennis-volley-01.caf */; };
 		408728C916B0C344009A2D17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408728C816B0C344009A2D17 /* UIKit.framework */; };
 		408728CB16B0C344009A2D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408728CA16B0C344009A2D17 /* Foundation.framework */; };
 		408728CD16B0C344009A2D17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408728CC16B0C344009A2D17 /* CoreGraphics.framework */; };
@@ -35,6 +37,8 @@
 		4008D33E16BF6BEF004A152E /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		4008D34016BF6C51004A152E /* iTennisAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTennisAppDelegate.h; sourceTree = "<group>"; };
 		4008D34116BF6CE0004A152E /* iTennisAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTennisAppDelegate.m; sourceTree = "<group>"; };
+		4008D34316BF7E99004A152E /* clapping-crowd-studio-01.caf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "clapping-crowd-studio-01.caf"; sourceTree = "<group>"; };
+		4008D34416BF7E99004A152E /* tennis-volley-01.caf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "tennis-volley-01.caf"; sourceTree = "<group>"; };
 		408728C416B0C344009A2D17 /* iTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408728C816B0C344009A2D17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		408728CA16B0C344009A2D17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,6 +114,8 @@
 				408728D016B0C344009A2D17 /* iTennis-Info.plist */,
 				4008D32C16BF6720004A152E /* Ball.png */,
 				4008D32E16BF6730004A152E /* court.png */,
+				4008D34316BF7E99004A152E /* clapping-crowd-studio-01.caf */,
+				4008D34416BF7E99004A152E /* tennis-volley-01.caf */,
 				4008D33616BF67F0004A152E /* Default.png */,
 				4008D33716BF67F0004A152E /* Raquet_Green.png */,
 				4008D33816BF67F0004A152E /* Raquet_Yellow.png */,
@@ -180,6 +186,8 @@
 				4008D33916BF67F0004A152E /* Default.png in Resources */,
 				4008D33A16BF67F0004A152E /* Raquet_Green.png in Resources */,
 				4008D33B16BF67F0004A152E /* Raquet_Yellow.png in Resources */,
+				4008D34516BF7E99004A152E /* clapping-crowd-studio-01.caf in Resources */,
+				4008D34616BF7E99004A152E /* tennis-volley-01.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="de" />
+<meta name="author" content="iCodeBlog" />
+<meta name="copyright" content="Copyright © 2008 ELC Technoloies, All Rights Reserved" />
+<meta name="revisit-after" content="7 Days" />
+<meta name="verify-v1" content="vQuJeqs7uxBh4YMynLR6xrUFIhU7dH7Ti2pu2IQmLnk=" />
+<meta name="google-site-verification" content="AwPI9eH5lypsuYCq6-1dq_fc4JYyip2ODpO0YKWzGjk" />
+<meta name="msvalidate.01" content="3F7AE04706AD73ED3AF2873248819E7F" />
+<META name="y_key" content="755dd3b2b0344ac8" />
+<title>
+							</title>
+<link rel="shortcut icon" href="http://www.icodeblog.com/wp-content/themes/icodeblog_v2/favicon.ico" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="http://www.icodeblog.com/wp-content/themes/icodeblog_v2/ie.css" /><![endif]-->
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.icodeblog.com/feed/" />
+<link rel="pingback" href="http://www.icodeblog.com/xmlrpc.php" />
+<script type="text/javascript" src="http://vma.tgdaily.net/www/delivery/spc_vma_async.php?id=4&source=ros&r=76002332&loc=http%3A%2F%2Fwww.icodeblog.com%2Fwp-content%2Fuploads%2F2009%2F05%2Ftennis-volley-01.caf&referer=http%3A%2F%2Fwww.icodeblog.com%2F2009%2F05%2F04%2Fiphone-game-programming-tutorial-part-4-basic-game-audio%2F"></script>
+
+
+			<script type="text/javascript">//<![CDATA[
+			// Google Analytics for WordPress by Yoast v4.2.8 | http://yoast.com/wordpress/google-analytics/
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-21460702-2']);
+							_gaq.push(['_trackPageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer]);
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+			//]]></script>
+			                <link rel="stylesheet" href="http://www.icodeblog.com/wp-content/uploads/spacker-cache/1b84fc1b97dc3acf36159a8411dbfc47.css" type="text/css" media="all" /><!-- Cache! -->
+                                <link rel="stylesheet" href="http://www.icodeblog.com/wp-content/uploads/spacker-cache/d74693483d649886253cdeba66a7ac27.css" type="text/css" media="screen" /><!-- Cache! -->
+                <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.icodeblog.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.icodeblog.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<script type='text/javascript'>var base_url_sociable = 'http://www.icodeblog.com/wp-content/plugins/sociable/'</script><script type='text/javascript' src='http://apis.google.com/js/plusone.js'></script>                <script type="text/javascript" src="http://www.icodeblog.com/wp-content/uploads/spacker-cache/9d8dfce43bc3c14daed7968e047e2390.js">/*Cache!*/</script>
+                
+<link rel="stylesheet" href="http://img.tgdaily.net/sites/all/themes/techgen/css/widget.css" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript">
+ var OA_source='ros';  $(document).ready(function() {
+    $('.tags-full').hide();
+    $('#show-top-tags, #show-all-tags').click(function(){
+      $('.tags-full, .tags-trnc').toggle();
+    });
+    function shrink() {  
+    var contentwidth = $(window).width();  
+    if ((contentwidth) < '1250'){  
+    $('.fluid').addClass('shrink');
+    } else {
+    $('.fluid').removeClass('shrink');
+    }  
+    }  
+    shrink();//runs when page loads     
+    $(window).bind("resize", function(){//adds class to handle content resizing when window width is changed  
+    shrink();  
+    });  
+    $('input[type="text"]').focus(function() {
+      $(this).closest("div").addClass("in-focus");
+      if (this.value == this.defaultValue){
+        this.value = '';
+    	}
+      if(this.value != this.defaultValue){
+      	this.select();
+      }
+    });
+    $('input[type="text"]').blur(function() {
+    	$(this).closest("div").removeClass("in-focus");
+      if (this.value == ''){
+      	this.value = (this.defaultValue);
+    	}
+    });
+  });
+</script>
+
+
+			<script type="text/javascript">//<![CDATA[
+			// Google Analytics for WordPress by Yoast v4.2.8 | http://yoast.com/wordpress/google-analytics/
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-21460702-2']);
+							_gaq.push(['_trackPageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer]);
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+			//]]></script>
+			                <link rel="stylesheet" href="http://www.icodeblog.com/wp-content/uploads/spacker-cache/bbe54e7eecac1d5e2de6513ee2cdc1e5.css" type="text/css" media="all" /><!-- Cache! -->
+                <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.icodeblog.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.icodeblog.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<script type='text/javascript'>var base_url_sociable = 'http://www.icodeblog.com/wp-content/plugins/sociable/'</script><script type='text/javascript' src='http://apis.google.com/js/plusone.js'></script>
+</head>
+
+
+<body id="wp-contentuploads200905tennis-volley-01.caf">
+
+  
+  <div id="top_head">
+  	<div class="top_head_contain">
+  	
+<!--
+  		<div id="login">
+  			<ul id="register">
+  				<li><a href="#">log in</a></li>
+  				<li>/</li>
+  				<li><a href="#">register</a></li>
+  			</ul>
+  		</div>
+-->
+
+      
+  		
+  		<div id="top_nav">
+  		  <span class="velum-logo"><a href="http://velummedia.com">Velum Media</a></span>
+  			<ul>
+  				<li><a href="http://www.tgdaily.com" title="TG Daily">news</a></li>
+  				<li><a href="http://www.rubyglob.com" title="Ruby Glob">web dev</a></li>
+  				<li><a href="http://www.icodeblog.com" title="iCode Blog">mobile dev</a></li>
+  				<li><a href="http://www.smallcloudbuilder.com/" title="Small Cloud Builder">the cloud</a></li>
+  				<li><a href="http://www.smallnetbuilder.com/" title="Small Net Builder">networking</a></li>
+  				<li><a href="http://www.mxdwn.com/" title="mxdwn.com">music</a></li>
+  				<li><a href="http://breakingmuscle.com/" title="Breaking Muscle">fitness</a></li>
+<!--   				<li><a href="http://www.tgdaily.com/tag/business">business</a></li> -->
+  				<li><a href="http://www.bestcovery.com">bestcovery</a></li>
+  			</ul>
+  		</div>
+  		
+  		<div id="search">
+  			<div id="searchwrapper">
+  		    <form action="http://www.icodeblog.com">
+    				<input type="text" class="searchbox" name="s" title="search" value="search" />
+    				<input type="submit" class="searchbox_submit" value="" />
+  				</form>
+  			</div>
+  		</div>  
+  		
+  	</div>
+  </div><!-- end top head -->
+  
+  <div id="header" class="container fluid">  
+  	<link rel="shortcut icon" href="http://www.icodeblog.com/wp-content/themes/icodeblog_v2/favicon.ico" />
+  	<div id="logo">
+  		<a href="http://www.icodeblog.com" title="Home"></a>
+  	</div>
+
+  	<div class="wide-ad top-ad">
+        <div id="OA_posid_0"></div>
+        <noscript><a target='_blank' href='http://vma.tgdaily.net/www/delivery/ck.php?n=4b6848f'><img border='0' alt='' src='http://vma.tgdaily.net/www/delivery/avw.php?zoneid=115&amp;n=4b6848f' /></a></noscript>
+        <script type="text/javascript">
+        OA_show_banner(0);
+        </script>
+  	</div>
+  	
+  	<div class="clear"></div>
+  	 
+ <!-- 
+    
+    	<ul class="cat-nav">
+    		<li><a href="http://www.icodeblog.com">home</a></li>
+    		<li><a href="http://www.icodeblog.com/?tag=ruby,rails,rubyonrails/">ruby on rails</a></li>
+    		<li><a href="http://www.icodeblog.com/?tag=cloud">cloud</a></li>
+    		<li><a href="http://www.icodeblog.com/?category_name=industry">industry</a></li>
+  		
+  			<li class="subscribe"><a id="rss_btn" href="http://feeds.feedburner.com/rubyglob"></a></li>
+  			<li class="subscribe"><a id="twitter_btn" href="http://twitter.com/rubyglob"></a></li>
+  			<li class="subscribe"><a id="facebook_btn" href="http://www.facebook.com/pages/RubyGlobcom/181934898508277"></a></li>
+    	</ul>
+    
+ -->
+    	
+    	<ul id="main_nav"> 
+			<li><a class="nav_home" href="http://www.icodeblog.com">home</a></li> 
+			<li><a class="nav_feature" href="http://www.icodeblog.com/?category_name=featured">featured</a></li>
+			<li><a class="nav_tutor" href="http://www.icodeblog.com/?category_name=tutorials">tutorials</a></li>
+			<li><a class="nav_snip" href="http://www.icodeblog.com/?category_name=snippets">nippets</a></li>
+			<li><a class="nav_ipad" href="http://www.icodeblog.com/?tag=ipad">ipad</a></li>
+			<li><a class="nav_ipod" href="http://www.icodeblog.com/?tag=iphone,ipod">iphone / ipod touch</a></li>
+			<li><a class="nav_and" href="http://www.icodeblog.com/?s=android">android</a></li>
+			<li><a class="nav_win" href="http://www.icodeblog.com/?s=windows">windows 7</a></li>
+		</ul> 
+    	
+    	<div class="clear"></div>
+  </div><!-- end header -->
+
+
+<div id="content" class="container fluid">
+
+  <div id="main" class="fluid">
+			
+				<h3>Not found!</h3>
+				<p>Sorry, no posts matched your criteria.!!</p>
+				
+<!--
+  <div id="searchform">
+  	<form action="">
+  		<input type="text" id="search-field" title="search" value="search" />
+  		<input type="submit" class="searchbox_submit" value="" />
+  	</form>
+  </div>
+-->
+
+
+<div class="search">
+	<div id="searchform">
+    <form action="">
+			<input type="text" class="searchbox" name="s" title="search" value="search" />
+			<input type="submit" class="searchbox_submit" value="" />
+		</form>
+	</div>
+</div> 			
+			<div class="clear"></div>
+	
+	  </div><!-- end main -->
+	  
+	  <div id="sidebar" class="fluid">
+
+  <div class="tall-ad side-cell">
+	<div id="block-social">
+  		<div id="fan_box">
+  			<div id="fb_link">
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FiCodeBlog%2F259123700776458&amp;width=292&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
+  			</div>
+  			<ul>
+  				<li id="fb"><a href="http://www.facebook.com/pages/iCodeBlog/259123700776458" target="_blank"></a></li>
+  				<li id="rss"><a href="http://feeds.feedburner.com/icodeblog" target="_blank"></a></li>
+  				<li id="twit"><a href="http://twitter.com/icodeblog" target="_blank"></a></li>
+  			</ul><div class="clear"></div>
+		</div><div class="clear"></div>
+	</div>
+  </div>
+
+  <div class="tall-ad">
+    <div id="OA_posid_2"></div>
+    <noscript><a target='_blank' href='http://vma.tgdaily.net/www/delivery/ck.php?n=01e1c47'><img border='0' alt='' src='http://vma.tgdaily.net/www/delivery/avw.php?zoneid=117&amp;n=01e1c47' /></a></noscript>
+    <script type="text/javascript">
+    OA_show_banner(2);
+    </script>
+  </div><!-- end tall-ad --><br>
+
+  <div class="side-cell post-list">
+    <h3 id="pop_head">Popular Posts</h3>
+    <div id="post_wrap">
+    <ul>
+            <li>
+                <div class="post-list-name">
+          <a href="http://www.icodeblog.com/2009/01/15/iphone-game-programming-tutorial-part-1/" title="iPhone Game Programming Tutorial - Part 1">iPhone Game Programming Tutorial - Part 1</a> 
+          347 comments
+        </div>
+        <div class="clear"></div>
+      </li>
+            <li>
+                <div class="post-list-name">
+          <a href="http://www.icodeblog.com/2008/08/08/iphone-programming-tutorial-populating-uitableview-with-an-nsarray/" title="iPhone Programming Tutorial - Populating UITableView With An NSArray">iPhone Programming Tutorial - Populating UITableView With An NSArray</a> 
+          326 comments
+        </div>
+        <div class="clear"></div>
+      </li>
+            <li>
+                <div class="post-list-name">
+          <a href="http://www.icodeblog.com/2008/08/19/iphone-programming-tutorial-creating-a-todo-list-using-sqlite-part-1/" title="iPhone Programming Tutorial - Creating a ToDo List Using SQLite Part 1">iPhone Programming Tutorial - Creating a ToDo List Using SQLite Part 1</a> 
+          232 comments
+        </div>
+        <div class="clear"></div>
+      </li>
+            <li>
+                <div class="post-list-name">
+          <a href="http://www.icodeblog.com/2008/07/30/iphone-programming-tutorial-connecting-code-to-an-interface-builder-view/" title="iPhone Programming Tutorial - Connecting Code to An Interface Builder View">iPhone Programming Tutorial - Connecting Code to An Interface Builder View</a> 
+          215 comments
+        </div>
+        <div class="clear"></div>
+      </li>
+            <li>
+                <div class="post-list-name">
+          <a href="http://www.icodeblog.com/2008/08/03/iphone-programming-tutorial-transitioning-between-views/" title="iPhone Programming Tutorial - Transitioning Between Views">iPhone Programming Tutorial - Transitioning Between Views</a> 
+          211 comments
+        </div>
+        <div class="clear"></div>
+      </li>
+          </ul>
+    </div>
+  </div><!-- end post-list -->
+
+  
+  <div class="wod=box side-cell">
+    <div class="wod_widget"><div id="container" class="clear-block widget-container"><div class="clear-block"><h3><a href="http://breakingmuscle.com/workout-of-the-day" target="_blank"><img src="http://img.breakingmuscle.com/sites/all/themes/breakingmuscle/images/bm_logo_50.png" width="50" height="50" border="0" alt="Breaking Muscle"> Workout of the Day</a></h3>
+<div id="block-views-wod_list-block_2" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_2 view-dom-id-68cf70fb05a16fa8675a169536cd7388"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Awake &amp; Evolve Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/feb_8_2012_-_815pm/shutterstock_94201489.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Feel Good Yoga</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">Looking for some feel good yoga?  Relax as you open the shoulders, neck and spine. Calm the chatter of the mind and go deep forward bend.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_2 -->
+<div id="block-views-wod_list-block_9" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_9 view-dom-id-fa65ca228de546d81e6b8532a1a1e1d2"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Bodyweight Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130126/shutterstock90720733.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Bodyweight Workout: Cycle 2, Week 3, Day 3</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">No fancy gym equipment? No problem. The bodyweight workouts require only the space of a yoga mat. The next two 6-week cycles will focus on building up to a one-arm push up.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_9 -->
+<div id="block-views-wod_list-block_8" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_8 view-dom-id-50986fe995ee1440dcb81736929859b7"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Frogman Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130201/shutterstock108659438.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Frogman Workout: Cycle 1, Week 12, Day 2</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">These workouts are designed by world-class swimmer Hannah Caldas. They will increase your overall strength and conditioning while also improving your technique and agility in the water.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_8 -->
+<div id="block-views-wod_list-block_5" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_5 view-dom-id-b4f2bed983046c2b50dee39f9edbfdff"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Mature Athlete Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130202/shutterstock37448389.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Mature Athlete: Cycle  3, Week 7, Day 4</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">The third cycle of the Mature Athlete workouts is another 12-week program with a variety of training options and modes. This cycle integrates challenge workouts to keep you competing with yourself.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_5 -->
+<div id="block-views-wod_list-block_6" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_6 view-dom-id-5fdeb48e85018a23c75d6806878e77da"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Mommy Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130202/shutterstock111622631.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Mommy Workout: Third Trimester - Week 31, Day 3</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">These workouts are designed to help pregnant women maintain strength and conditioning in the third trimester of pregnancy, while also preparing the body for labor and delivery.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_6 -->
+<div id="block-views-wod_list-block_4" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_4 view-dom-id-1d1691f8b070151ea588296f8309bd81"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>RKC Kettlebell Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130131/shutterstock94410034.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">RKC Kettlebell: Cycle 5, Week 3, Day 2</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">Get a total body workout and increase strength and mobility with the fifth cycle of RKC Kettlebell WODs by RKC II Dini Leopoldo.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_4 -->
+<div id="block-views-wod_list-block_1" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_1 view-dom-id-63422820445243eaa4b66e9a12748781"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Strength &amp; Conditioning Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130124/scottjansen016s.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Strength and Conditioning - Sabina Skala: Week 1, Day 3</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">These workouts were designed by strength &amp; conditioning coach and MMA training expert Sabina Skala. The program was designed for professional fighter Richie J. Edwards to build strength and power.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_1 -->
+<div id="block-views-wod_list-block_7" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_7 view-dom-id-707346b17360d1b0ca59af666e3b2569"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Sport Specific Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130118/shutterstock110369753.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Sport Specific: Tennis - Week 7, Day 3</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">Tennis encompasses many different facets of training, including strength, power, speed, endurance, flexibility, and even balance. Improve in all these areas with our exclusive workouts.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_7 -->
+<div id="block-views-wod_list-block_3" class="block block-views"><div class="content"><div class="view view-wod-list view-id-wod_list view-display-id-block_3 view-dom-id-ede8c164c78f247b3c0e06e2d9a0fb39"><div class="view-content"><div class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div class="views-field views-field-description"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" title="Workout of the Day" class="wod-term" target="_top"><p>Women's Workout of the Day</p>
+</a></div></div><div class="views-field views-field-field-headline-image-fid"><span class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-img" target="_top"><img src="http://img.breakingmuscle.com/sites/default/files/imagecache/popular_thumb/images/headline/20130201/shutterstock106703186.jpg" alt="" title="" width="40" height="40" class="imagecache imagecache-popular_thumb imagecache-default imagecache-popular_thumb_default"/></a></span></div><div class="views-field views-field-title"><span class="field-content"><h5><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-title" target="_top">Women&#039;s Workout: Cycle 13, Week 5, Day 3</a></h5></span></div><div class="views-field views-field-field-teaser-value"><div class="field-content"><a href="http://breakingmuscle.com/workout-of-the-day" class="wod-teaser" target="_top">This cycle of the Women's Workout focuses on preparing for a 5K run. This is an intermediate program for those who wish to complete a race with a time between 20 - 26 minutes.
+</a></div></div><div class="clearboth"></div></div></div></div>
+</div></div><!-- block-views-wod_list-block_3 -->
+</div></div></div>
+  </div>
+
+  <div class="cats-tags side-cell">
+    <h3 class="cat-head" id="cat_arrow">categories</h3>
+    <h3 class="tag-head">tags</h3>
+    <ul class="cat-list">
+      	<li class="cat-item cat-item-1"><a href="http://www.icodeblog.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.icodeblog.com/category/tutorials/" title="Full tutorials that lead you through the creation of an iOS application">Tutorials</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.icodeblog.com/category/snippets/" title="Small code samples that are useful during project development">Snippets</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.icodeblog.com/category/featured/" title="Featured Articles">Featured</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.icodeblog.com/category/articles/" title="Articles relating to iOS development or iCodeBlog">Articles</a>
+</li>
+    </ul>      
+
+    <div class="tags-trnc">
+      <ul class='wp-tag-cloud'>
+	<li><a href='http://www.icodeblog.com/tag/intermediate/' class='tag-link-68' title='35 topics' style='font-size: 9pt;'>Intermediate</a></li>
+	<li><a href='http://www.icodeblog.com/tag/beginner/' class='tag-link-23' title='24 topics' style='font-size: 9pt;'>beginner</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone/' class='tag-link-77' title='22 topics' style='font-size: 9pt;'>iphone</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-programming/' class='tag-link-106' title='17 topics' style='font-size: 9pt;'>iphone programming</a></li>
+	<li><a href='http://www.icodeblog.com/tag/advanced/' class='tag-link-11' title='15 topics' style='font-size: 9pt;'>Advanced</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-coding/' class='tag-link-92' title='15 topics' style='font-size: 9pt;'>iPhone Coding</a></li>
+	<li><a href='http://www.icodeblog.com/tag/tutorial/' class='tag-link-166' title='9 topics' style='font-size: 9pt;'>tutorial</a></li>
+	<li><a href='http://www.icodeblog.com/tag/ios/' class='tag-link-70' title='9 topics' style='font-size: 9pt;'>iOS</a></li>
+	<li><a href='http://www.icodeblog.com/tag/uitableview/' class='tag-link-187' title='7 topics' style='font-size: 9pt;'>uitableview</a></li>
+	<li><a href='http://www.icodeblog.com/tag/xcode/' class='tag-link-203' title='7 topics' style='font-size: 9pt;'>xcode</a></li>
+</ul>
+ <!-- sits in ul with class "wp-tag-cloud" -->
+      <div id="show-all-tags">show all tags</div>
+    </div>
+    <div class="tags-full">
+      <ul class='wp-tag-cloud'>
+	<li><a href='http://www.icodeblog.com/tag/intermediate/' class='tag-link-68' title='35 topics' style='font-size: 9pt;'>Intermediate</a></li>
+	<li><a href='http://www.icodeblog.com/tag/beginner/' class='tag-link-23' title='24 topics' style='font-size: 9pt;'>beginner</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone/' class='tag-link-77' title='22 topics' style='font-size: 9pt;'>iphone</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-programming/' class='tag-link-106' title='17 topics' style='font-size: 9pt;'>iphone programming</a></li>
+	<li><a href='http://www.icodeblog.com/tag/advanced/' class='tag-link-11' title='15 topics' style='font-size: 9pt;'>Advanced</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-coding/' class='tag-link-92' title='15 topics' style='font-size: 9pt;'>iPhone Coding</a></li>
+	<li><a href='http://www.icodeblog.com/tag/tutorial/' class='tag-link-166' title='9 topics' style='font-size: 9pt;'>tutorial</a></li>
+	<li><a href='http://www.icodeblog.com/tag/ios/' class='tag-link-70' title='9 topics' style='font-size: 9pt;'>iOS</a></li>
+	<li><a href='http://www.icodeblog.com/tag/xcode/' class='tag-link-203' title='7 topics' style='font-size: 9pt;'>xcode</a></li>
+	<li><a href='http://www.icodeblog.com/tag/uitableview/' class='tag-link-187' title='7 topics' style='font-size: 9pt;'>uitableview</a></li>
+	<li><a href='http://www.icodeblog.com/tag/sqlite/' class='tag-link-154' title='6 topics' style='font-size: 9pt;'>SQLite</a></li>
+	<li><a href='http://www.icodeblog.com/tag/programming/' class='tag-link-144' title='5 topics' style='font-size: 9pt;'>Programming</a></li>
+	<li><a href='http://www.icodeblog.com/tag/objective-c/' class='tag-link-140' title='5 topics' style='font-size: 9pt;'>objective-c</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-dev/' class='tag-link-95' title='5 topics' style='font-size: 9pt;'>iphone dev</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-development/' class='tag-link-97' title='4 topics' style='font-size: 9pt;'>iphone development</a></li>
+	<li><a href='http://www.icodeblog.com/tag/twitter/' class='tag-link-168' title='4 topics' style='font-size: 9pt;'>twitter</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-apps/' class='tag-link-85' title='4 topics' style='font-size: 9pt;'>iPhone apps</a></li>
+	<li><a href='http://www.icodeblog.com/tag/game/' class='tag-link-55' title='4 topics' style='font-size: 9pt;'>game</a></li>
+	<li><a href='http://www.icodeblog.com/tag/interface-builder/' class='tag-link-67' title='4 topics' style='font-size: 9pt;'>Interface Builder</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-game/' class='tag-link-101' title='3 topics' style='font-size: 9pt;'>iphone game</a></li>
+	<li><a href='http://www.icodeblog.com/tag/hello-world/' class='tag-link-61' title='3 topics' style='font-size: 9pt;'>hello world</a></li>
+	<li><a href='http://www.icodeblog.com/tag/corelocation/' class='tag-link-32' title='3 topics' style='font-size: 9pt;'>CoreLocation</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-tutorial/' class='tag-link-110' title='3 topics' style='font-size: 9pt;'>iphone tutorial</a></li>
+	<li><a href='http://www.icodeblog.com/tag/uiimagepickercontroller/' class='tag-link-174' title='3 topics' style='font-size: 9pt;'>UIImagePickerController</a></li>
+	<li><a href='http://www.icodeblog.com/tag/mapkit/' class='tag-link-120' title='2 topics' style='font-size: 9pt;'>MapKit</a></li>
+	<li><a href='http://www.icodeblog.com/tag/itunes/' class='tag-link-115' title='2 topics' style='font-size: 9pt;'>itunes</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-sdk/' class='tag-link-108' title='2 topics' style='font-size: 9pt;'>iphone sdk</a></li>
+	<li><a href='http://www.icodeblog.com/tag/mkmapview/' class='tag-link-121' title='2 topics' style='font-size: 9pt;'>MKMapView</a></li>
+	<li><a href='http://www.icodeblog.com/tag/mkreversegeocoder/' class='tag-link-123' title='2 topics' style='font-size: 9pt;'>MKReverseGeocoder</a></li>
+	<li><a href='http://www.icodeblog.com/tag/sqlite3/' class='tag-link-155' title='2 topics' style='font-size: 9pt;'>sqlite3</a></li>
+	<li><a href='http://www.icodeblog.com/tag/nstimer/' class='tag-link-135' title='2 topics' style='font-size: 9pt;'>NSTimer</a></li>
+	<li><a href='http://www.icodeblog.com/tag/nsoperation/' class='tag-link-134' title='2 topics' style='font-size: 9pt;'>nsoperation</a></li>
+	<li><a href='http://www.icodeblog.com/tag/nsarray/' class='tag-link-130' title='2 topics' style='font-size: 9pt;'>nsarray</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-game-programming/' class='tag-link-102' title='2 topics' style='font-size: 9pt;'>iPhone Game Programming</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-articles/' class='tag-link-86' title='2 topics' style='font-size: 9pt;'>iPhone Articles</a></li>
+	<li><a href='http://www.icodeblog.com/tag/elcimagepickercontroller/' class='tag-link-44' title='2 topics' style='font-size: 9pt;'>ELCImagePickerController</a></li>
+	<li><a href='http://www.icodeblog.com/tag/database/' class='tag-link-37' title='2 topics' style='font-size: 9pt;'>database</a></li>
+	<li><a href='http://www.icodeblog.com/tag/apple/' class='tag-link-14' title='2 topics' style='font-size: 9pt;'>apple</a></li>
+	<li><a href='http://www.icodeblog.com/tag/alert/' class='tag-link-12' title='2 topics' style='font-size: 9pt;'>alert</a></li>
+	<li><a href='http://www.icodeblog.com/tag/google-maps/' class='tag-link-59' title='2 topics' style='font-size: 9pt;'>Google Maps</a></li>
+	<li><a href='http://www.icodeblog.com/tag/gps/' class='tag-link-60' title='2 topics' style='font-size: 9pt;'>GPS</a></li>
+	<li><a href='http://www.icodeblog.com/tag/iphone-ads/' class='tag-link-79' title='2 topics' style='font-size: 9pt;'>iphone ads</a></li>
+	<li><a href='http://www.icodeblog.com/tag/ipad-programming/' class='tag-link-76' title='2 topics' style='font-size: 9pt;'>ipad programming</a></li>
+	<li><a href='http://www.icodeblog.com/tag/ipad/' class='tag-link-73' title='2 topics' style='font-size: 9pt;'>ipad</a></li>
+	<li><a href='http://www.icodeblog.com/tag/introduction/' class='tag-link-69' title='2 topics' style='font-size: 9pt;'>Introduction</a></li>
+</ul>
+ <!-- sits in ul with class "wp-tag-cloud" -->
+      <div id="show-top-tags">show top tags</div>
+    </div>
+    
+    <div class="clear"></div>
+  </div>
+ 
+  <div class="partners side-cell">
+    <h3 class="cat-head" id="part_arrow">Partners</h3>
+    <a href="http://bestcovery.com" id="partner_bst">Bestcovery</a>
+    <a href="http://icodeblog.com" id="partner_icb">iCodeBlog</a>
+    <a href="http://mxdwn.com" id="partner_mxd">MXDWN</a>
+    <a href="http://smallcloudbuilder.com" id="partner_scb">SmallCloudBuilder</a>
+    <a href="http://smallnetbuilder.com" id="partner_snb">SmallNetBuilder</a>
+    <a href="http://tgdaily.com" id="partner_tg">TGDaily</a>
+    <div class="clear"></div>
+  </div>
+  
+  <div class="bestcovery side-cell">
+    <h3 class="cat-head" id="best_arrow">Bestcovery</h3>
+	<div id="best_wrap">
+    <ul class="clearfix">
+      <li class="cat-item"><a href="http://www.bestcovery.com/best-wireless-n-router-overall">Best Wireless-N Router</a></li>
+      <li class="cat-item"><a href="http://www.bestcovery.com/best-high-performance-laptop">Best High Performance Laptop</a></li>
+      <li class="cat-item"><a href="http://www.bestcovery.com/best-mac-laptop">Best Macbook</a></li>
+      <li class="cat-item"><a href="http://www.bestcovery.com/best-free-cddvd-burning-software">Best Free DVD Burning Software</a></li>
+      <li class="cat-item"><a href="http://www.bestcovery.com/best-pc-speakers-overall">Best PC Speakers </a></li>
+    </ul>
+    </div>
+  </div>
+  
+  <div class="tall-ad side-cell">
+    <a href="http://elctech.com" class="elc_ad"><img src="http://www.icodeblog.com/wp-content/themes/icodeblog_v2/img/elc_rapid.png" alt="www.elctech.com" /></a>
+  </div>
+
+  <div class="tall-ad side-cell">
+    <script type='text/javascript'><!--// <![CDATA[
+    OA_show_pos(4);
+    // ]]> --></script><noscript><a target='_blank' href='http://vma.tgdaily.net/www/delivery/ck.php?n=244d8c3'><img border='0' alt='' src='http://vma.tgdaily.net/www/delivery/avw.php?zoneid=129&amp;n=244d8c3' /></a></noscript>
+  </div>
+
+<div id="text-5" class="side-cell widget widget_text">			<div class="textwidget"></div>
+		</div>  
+</div><!-- end sidebar -->
+	  
+	  <div class="clear"></div>
+	
+</div><!-- end content -->
+	
+<div class="clear"></div>
+</div><!-- end container -->
+
+<div class="bottom-footer">
+  <div class="container fluid">
+    <div class="small-logo"><a href="">iCodeBlog</a></div>
+    <a href="http://elctech.com" class="badge">elc technologies</a>
+    <div class="small-print">&#169; 2011 iCodeBlog. All rights Reserved. <a href="http://www.icodeblog.com/about">About iCodeBlog</a> | <a href="http://www.icodeblog.com/privacy">Privacy Policy</a>  | <a href="http://www.icodeblog.com/terms">Terms of Use</a> | <a href="http://velummedia.com">Advertise With Us</a> | </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ;
+var dc_PublisherID = 131307 ;
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'></script>
+</body>
+</html>
