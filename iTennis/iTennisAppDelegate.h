@@ -2,18 +2,21 @@
 //  iTennisAppDelegate.h
 //  iTennis
 //
-//  Created by  on 1/23/13.
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//  Created by Brandon Trebitowski on 1/14/09.
+//  Copyright __MyCompanyName__ 2009. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@class iTennisViewController;
+#import "SplashViewController.h"
 
-@interface iTennisAppDelegate : UIResponder <UIApplicationDelegate>
+@interface iTennisAppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+	SplashViewController *viewController;
+}
 
-@property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) iTennisViewController *viewController;
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet SplashViewController *viewController;
 
 @end
+
