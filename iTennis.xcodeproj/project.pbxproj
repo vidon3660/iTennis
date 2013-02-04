@@ -17,6 +17,7 @@
 		4008D34216BF6CE0004A152E /* iTennisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008D34116BF6CE0004A152E /* iTennisAppDelegate.m */; };
 		4008D34516BF7E99004A152E /* clapping-crowd-studio-01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4008D34316BF7E99004A152E /* clapping-crowd-studio-01.caf */; };
 		4008D34616BF7E99004A152E /* tennis-volley-01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4008D34416BF7E99004A152E /* tennis-volley-01.caf */; };
+		4008D34816BF7FBB004A152E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4008D34716BF7FBB004A152E /* AudioToolbox.framework */; };
 		408728C916B0C344009A2D17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408728C816B0C344009A2D17 /* UIKit.framework */; };
 		408728CB16B0C344009A2D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408728CA16B0C344009A2D17 /* Foundation.framework */; };
 		408728CD16B0C344009A2D17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408728CC16B0C344009A2D17 /* CoreGraphics.framework */; };
@@ -39,6 +40,7 @@
 		4008D34116BF6CE0004A152E /* iTennisAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTennisAppDelegate.m; sourceTree = "<group>"; };
 		4008D34316BF7E99004A152E /* clapping-crowd-studio-01.caf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "clapping-crowd-studio-01.caf"; sourceTree = "<group>"; };
 		4008D34416BF7E99004A152E /* tennis-volley-01.caf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "tennis-volley-01.caf"; sourceTree = "<group>"; };
+		4008D34716BF7FBB004A152E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		408728C416B0C344009A2D17 /* iTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408728C816B0C344009A2D17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		408728CA16B0C344009A2D17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4008D34816BF7FBB004A152E /* AudioToolbox.framework in Frameworks */,
 				408728C916B0C344009A2D17 /* UIKit.framework in Frameworks */,
 				408728CB16B0C344009A2D17 /* Foundation.framework in Frameworks */,
 				408728CD16B0C344009A2D17 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +72,7 @@
 		408728B916B0C343009A2D17 = {
 			isa = PBXGroup;
 			children = (
+				4008D34716BF7FBB004A152E /* AudioToolbox.framework */,
 				408728CE16B0C344009A2D17 /* iTennis */,
 				408728C716B0C344009A2D17 /* Frameworks */,
 				408728C516B0C344009A2D17 /* Products */,
