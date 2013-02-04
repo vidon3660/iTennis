@@ -13,14 +13,28 @@
 @synthesize window;
 @synthesize viewController;
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application {    
+//- (void)applicationDidFinishLaunching:(UIApplication *)application {
+//
+//	viewController = [[SplashViewController alloc] init];
+//    // Override point for customization after app launch
+//    [window addSubview:[viewController view]];
+//
+//    [window makeKeyAndVisible];
+//}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    // Override point for customization after application launch.
+    self.viewController = [[[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil] autorelease];
+    self.window.rootViewController = self.viewController;
     
-	viewController = [[SplashViewController alloc] init];
-    // Override point for customization after app launch    
-    [window addSubview:[viewController view]];
-	
-    [window makeKeyAndVisible];
+    //[self.window addSubview:[self.viewController view]];
+    [self.window makeKeyAndVisible];
+    return YES;
 }
+
 
 
 - (void)dealloc {

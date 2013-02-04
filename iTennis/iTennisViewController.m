@@ -26,6 +26,7 @@
 @synthesize ball, racquet_green, racquet_yellow;
 @synthesize tapToBegin, computer_score, player_score;
 @synthesize ballVelocity, gameState;
+@synthesize volleyFileID, clappingFileID;
 
 - (void)viewDidLoad
 {
@@ -34,8 +35,18 @@
     
     self.gameState = kGameStatePaused;
     ballVelocity = CGPointMake(kBallSpeedX, kBallSpeedY);
-    [NSTimer scheduledTimerWithTimeInterval:(1.0f/30.0f) target:self selector:@selector(gameLoop) 
-                                   userInfo:nil repeats:YES];
+    
+    NSString *clapPath = [[NSBundle mainBundle] pathForResource:@"Clapping Crowd Studio 01" ofType:@"caf"];
+    CFURLRef clapURL = (CFURLRef ) [NSURL fileURLWithPath:clapPath];
+    AudioServicesCreateSystemSoundID(clapURL, &clappingFileID);
+    
+    NSString *volleyPath = [[NSBundle mainBundle] pathForResource:@"Tennis Volley 01" ofType:@"caf"];
+    CFURLRef volleyURL = (CFURLRef ) [NSURL fileURLWithPath:volleyPath];
+    AudioServicesCreateSystemSoundID(volleyURL, &volleyFileID);
+    
+    
+    [NSTimer scheduledTimerWithTimeInterval:(1.0f/30.0f) target:self selector:@selector(gameLoop) userInfo:nil repeats:YES];
+    
 }
 
 - (void) gameLoop
@@ -56,13 +67,14 @@
         {
             if (ball.center.y > racquet_yellow.center.y) {
                 ballVelocity.y = -ballVelocity.y;
+                AudioServicesPlaySystemSound(volleyFileID);
             }
         }
         if (CGRectIntersectsRect(ball.frame, racquet_green.frame))
         {
             if (ball.center.y < racquet_green.center.y) {
                 ballVelocity.y = -ballVelocity.y;
-            }
+                AudioServicesPlaySystemSound(volleyFileID);            }
         }
         
         // Begin Simple AI
@@ -98,6 +110,7 @@
 - (void) reset:(BOOL) newGame
 {
     self.gameState = kGameStatePaused;
+    AudioServicesPlaySystemSound(clappingFileID);
     ball.center = self.view.center;
     if (newGame)
     {

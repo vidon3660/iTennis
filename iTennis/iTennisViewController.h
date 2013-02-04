@@ -23,6 +23,9 @@
     
     NSInteger player_score_value;
     NSInteger computer_score_value;
+    
+    SystemSoundID volleyFileID;
+    SystemSoundID clappingFileID;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView *ball;
@@ -33,6 +36,8 @@
 @property (retain, nonatomic) IBOutlet UILabel *player_score;
 @property (nonatomic) CGPoint ballVelocity;
 @property (nonatomic) NSInteger gameState;
+@property (nonatomic) SystemSoundID volleyFileID;
+@property (nonatomic) SystemSoundID clappingFileID;
 
 - (void) reset:(BOOL) newGame;
 
